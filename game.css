@@ -59,3 +59,9 @@ input[type="text"]:focus, textarea:focus {
 .stats-bar input {
     width: 100px;
 }
+
+#wpm {
+    margin-top: 17px;
+    height: 30px;
+    width: 70px;
+}
