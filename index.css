@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    font-size: large;
     background-image: url('images/background.png');
     background-size: cover;  
     background-repeat: no-repeat;
@@ -11,9 +12,9 @@ body {
 .container {
     max-width: 600px;
     margin: 40px auto;
-    background-color: #8AC7DB;
+    background-color: transparent;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     padding: 20px;
 }
 
@@ -27,7 +28,7 @@ h1 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -35,17 +36,19 @@ p {
     text-decoration: underline;
 }
 
-.how-it-works strong, .type-and-absorb strong {
+.how-it-works h2, .type-and-absorb h2 {
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 .how-it-works, .type-and-absorb, .introduction {
     text-align: left;
+    font-size: large;
     background-color: #E7FEFF;
     border-style: solid;
     border-color: #007BFF;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-bottom: 20px;
 }
 
