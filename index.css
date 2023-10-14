@@ -49,9 +49,11 @@ p {
 
 textarea {
     width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    height: 100px;
-    resize: none;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    height: 250px;  
 }
