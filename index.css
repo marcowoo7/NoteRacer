@@ -11,7 +11,7 @@ body {
 .container {
     max-width: 600px;
     margin: 40px auto;
-    background-color: #fff;
+    background-color: #8AC7DB;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -40,7 +40,10 @@ p {
 }
 
 .how-it-works, .type-and-absorb, .introduction {
-    background-color: #f9f9f9;
+    text-align: left;
+    background-color: #E7FEFF;
+    border-style: solid;
+    border-color: #007BFF;
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -61,11 +64,9 @@ p {
 
 textarea {
     width: 100%;
-    padding: 15px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    transition: border-color 0.3s;
-    height: 250px;  
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 100px;
+    resize: none;
 }
