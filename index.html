@@ -1,21 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Racer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007BFF;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .how-it-works, .type-and-absorb {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: block;
+            text-align: center;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 20px auto;
+            width: 50%;
+            font-weight: bold;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            height: 100px;
+            resize: none;
+        }
+
+    </style>
+</head>
 <body>
+    <div class="container">
+        <h1>Welcome to Note Racer!</h1>
+        <p>Dive into a unique typing experience that marries educational content with the adrenaline of racing...</p>
 
-<img src="img_la.jpg" alt="LA" style="width:100%">
+        <div class="how-it-works">
+            <strong>AI-Generated Transcripts:</strong>
+            <p>Our advanced AI system generates accurate and informative lecture notes...</p>
+        </div>
 
-<div class="">
- <h1>This is a Heading</h1>
- <p>This is a paragraph.</p>
- <p>This is another paragraph.</p>
-</div>
+        <div class="type-and-absorb">
+            <strong>Type & Absorb:</strong>
+            <p>As you race against the clock (and perhaps other users), you're not merely improving your typing speed...</p>
+        </div>
 
+        <textarea placeholder="Copy and paste your transcript into the box below..."></textarea>
+        <a href="#" class="button">START RACE</a>
+    </div>
 </body>
 </html>
